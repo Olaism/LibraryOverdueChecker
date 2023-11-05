@@ -1,3 +1,8 @@
+/*
+ * Chapter 7 Library Overdue Checker
+ * Step 2 - A stud class to represent the Booktracker
+ */
+
 package myutil;
 
 import java.util.*;

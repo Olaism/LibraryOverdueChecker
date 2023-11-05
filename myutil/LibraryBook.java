@@ -35,33 +35,7 @@ class LibraryBook {
         setMaximumCharge(maximumCharge);
         setTitle(title);
     }
-    // ---------------------------------------------------------
-    // Main method
-    // ---------------------------------------------------------
-    public static void main(String[] args) {
-        GregorianCalendar dueDate;
-        LibraryBook book1, book2, book3, book4;
-
-        dueDate = new GregorianCalendar(2023, Calendar.DECEMBER, 30);
-        book1 = new LibraryBook(dueDate);
-
-        dueDate = new GregorianCalendar(2023, Calendar.APRIL, 13);
-        book2 = new LibraryBook(dueDate, 0.75);
-        book2.setTitle("Introduction to OOP with java by C. Thomas Wu");
-
-        dueDate = new GregorianCalendar(2023, Calendar.MAY, 1);
-        book3 = new LibraryBook(dueDate, 1.00, 100.00);
-        book3.setTitle("Java for smarties");
-
-        dueDate = new GregorianCalendar(2023, Calendar.SEPTEMBER, 14);
-        book4 = new LibraryBook(dueDate, 1.50, 230.00, "Me and My Java");
-
-        System.out.println(book1.toString());
-        System.out.println(book2.toString());
-        System.out.println(book3.toString());
-        System.out.println(book4.toString());
-
-    }
+   
     // ---------------------------------------------------------
     // Instance Methods
     // ---------------------------------------------------------
